@@ -37,4 +37,4 @@ DEFINICIÓN DE LAYOUT
 - Portafolio.
 
 BOCETO
-![alt text](https://github.com/aavaldivieso/PROYECTO_FINAL/assets/master/imgs/IMG_0484.jpg)
+![alt text](https://github.com/aavaldivieso/PROYECTO_FINAL/blob/master/assets/imgs/IMG_0484.jpg)
