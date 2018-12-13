@@ -25,12 +25,16 @@ Requerimientos Visuales
 - Formas de contenido e imágenes orgánicas y modernas.
 
 Colores:
-#
-#
-#
-#
+buttons background #80B4C4
+buttons:hover background #FFFFFF
+buttons color #FFFFFF
+buttons:hover color #80B4C4
+background: #FFFFFF
+algunos titulares: gray
 
 Tipografías:
+párrafos: font-family: 'Cinzel', serif;
+titulares: font-family: 'Chivo', serif;
 
 
 DEFINICIÓN DE LAYOUT
