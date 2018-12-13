@@ -84,6 +84,7 @@ p {
 	height: auto;
 	padding: 0px;
 	width: 46px;
+	position: absolute;
 }
 
 .navbar-nav > li > a:hover {
@@ -164,6 +165,7 @@ p {
 	width: 100vw;
 	height: 80vh;
 	margin-bottom: 8vh;
+	background-color: #EFE0E0;
 }
 
 .circular--square {
@@ -201,6 +203,10 @@ p {
 	color: black;
 }
 
+.section h2 {
+	font-size: 1.9em;
+	color: black;
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -276,14 +282,17 @@ p {
 
 .portfolio__inner__image-top {
 	background-image: url("../imgs/tictoc1.jpg");
+	border-radius: 20px;
 }
 
 .portfolio__inner__image-middle {
 	background-image: url("../imgs/ilus1.jpg");
+	border-radius: 20px;
 }
 
 .portfolio__inner__image-bottom {
 	background-image: url("../imgs/salvatierra1.jpg");
+	border-radius: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -381,11 +390,13 @@ p {
 	color: white;
 	padding-top: 10px;
 	text-align: center;
+	margin-right: 120px;
 }
 
 .footer_av small {
 	color: white;
 	margin-top: 10px;
+	margin-right: 180px;
 	text-align: center;
 }
 
