@@ -87,7 +87,7 @@ p {
 	position: absolute;
 }
 
-.navbar-nav > li > a:hover {
+.navbar-nav > li > a:hover,.navbar-nav > li > a.active {
 	background-color: #80B4C4;
 	color: #FFFFFF;
 }
@@ -443,6 +443,21 @@ p {
 	border-radius: 20px;
 }
 
+.portfolio__inner__image-top2 {
+	background-image: url("../imgs/sudamerica1.jpg");
+	border-radius: 20px;
+}
+
+.portfolio__inner__image-middle2 {
+	background-image: url("../imgs/clarita1.jpg");
+	border-radius: 20px;
+}
+
+.portfolio__inner__image-bottom2 {
+	background-image: url("../imgs/nissan1.jpg");
+	border-radius: 20px;
+}
+
 @media only screen and (max-width: 767px) {
 
 	.portfolio {
@@ -489,7 +504,7 @@ p {
 	margin: 0;
 }
 
-	.portfolio__inner__image-top, .portfolio__inner__image-middle, .portfolio__inner__image-bottom {
+	.portfolio__inner__image-top, .portfolio__inner__image-middle, .portfolio__inner__image-bottom, .portfolio__inner__image-top2, .portfolio__inner__image-middle2, .portfolio__inner__image-bottom2{
 	display: none;
 }
 
@@ -532,7 +547,7 @@ p {
 	background-color: #80B4C4;
 	color: #FFFFFF;
 	width: 100vw;
-	height: 20vh;
+	height: 40vh;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -572,6 +587,10 @@ border-radius: 30px;
 width: 600px;
 margin-left: 13vw;
 padding: 15px;
+}
+
+.container h1{
+	margin-top: 80px;
 }
 
 @media only screen and (max-width: 767px) {
