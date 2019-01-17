@@ -1,6 +1,5 @@
 /*Global styles*/
 
-
 h1, h2, h3 {
 	font-family: 'Chivo', sans-serif;
 }
@@ -46,6 +45,7 @@ h3 {
 
 p {
 	
+}
 }
 
 
@@ -237,14 +237,20 @@ p {
 
 /*slider*/
 
+.titulo h3 {
+	text-align: center;
+	color: black;
+	font-size: 2em;
+}
+
+.titulo p {
+	text-align: center;
+	color: gray;
+	font-size: 1em;
+}
+
 .container1 {
-  background: white;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100vw;
+  width: 1200px;
   margin: 40px auto;
   height: auto;
   overflow: auto;
@@ -267,8 +273,8 @@ p {
 }
 
 .slider-inner {
-	width: 1200px;
-	height: 800px;
+	width: 1000px;
+	height: auto;
 	position: relative;
 	overflow: hidden;
 	float: left;
@@ -278,8 +284,8 @@ p {
 
 .slider-inner img {
 	display: none;
-	width: 1200px;
-	height: 800px;
+	width: 1000px;
+	height: auto;
 }
 
 .slider-inner img.active {
@@ -296,7 +302,7 @@ p {
 	position: relative;
 	width: 7vw;
 	height: auto;
-	margin-right: -150px;
+	margin-right: -100px;
 	margin-top: 350px;
 	z-index: 100;
 }
@@ -305,7 +311,7 @@ p {
 	position: relative;
 	width: 7vw;
 	height: auto;
-	margin-left: -50px;
+	margin-left: -40px;
 	margin-top: 350px;
 	z-index: 100;
 }
@@ -313,13 +319,7 @@ p {
 @media only screen and (max-width: 767px) {
 
 .container1 {
-  background: white;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100vw;
+  width: 600px;
   margin: -40px auto;
   height: auto;
   overflow: hidden;
@@ -501,7 +501,7 @@ p {
 	background-color: #80B4C4;
 	color: #FFFFFF;
 	width: 100vw;
-	height: auto;
+	height: 30vh;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -532,9 +532,10 @@ p {
 	background-color: #80B4C4;
 	color: #FFFFFF;
 	width: 100vw;
-	height: auto;
+	height: 20vh;
 	text-align: center;
 	margin-top: 20px;
+}
 
 .footer_av form {
 	margin-top: 10px;
@@ -557,4 +558,27 @@ p {
 }
 
 
+}
+
+/*gallery*/
+
+.thumbnail{
+	padding: 70px;
+}
+
+/*gallery*/
+.biografia img{
+border-radius: 30px;
+width: 600px;
+margin-left: 13vw;
+padding: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+.biografia img{
+border-radius: 30px;
+width: 100vw;
+height: auto;
+margin-bottom: 15px;
+}
 }
